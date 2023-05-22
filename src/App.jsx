@@ -1,6 +1,7 @@
 import "./App.css";
 import Titulos from "./components/Titulos";
 import Contador from "./components/Contador";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   //aqui es donde podemos escribir logica
