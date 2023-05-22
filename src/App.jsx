@@ -1,5 +1,6 @@
 import "./App.css";
 import Titulos from "./components/Titulos";
+import Contador from "./components/Contador";
 
 function App() {
   //aqui es donde podemos escribir logica
@@ -11,6 +12,7 @@ function App() {
       {/* aqui va el maquetado del componente */}
       {/* <Titulos aqui va los props></Titulos> */}
       <Titulos nuevoTitulo='Este titulo fue creado con props' estado={true} />
+      <Contador></Contador>
     </>
   );
 }
